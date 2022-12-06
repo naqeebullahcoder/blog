@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Validator;
 class PostController extends Controller
 {
-    // Welcome
+    //
     public function index()
     {
         $posts = Post::all()->toArray();
