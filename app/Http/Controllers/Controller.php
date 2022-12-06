@@ -1,4 +1,4 @@
-<?php
+o<?php
 namespace App\Http\Controllers\API;
 use App\Http\Controllers\Controller;
 use App\Models\Post;
@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use Validator;
 class PostController extends Controller
 {
-    // all posts
+    // Welcome
     public function index()
     {
         $posts = Post::all()->toArray();
